@@ -24,7 +24,7 @@ ai-software-testing-review-data/
 
 - `tables/supplementary_tables.docx`:  
   This document includes:
-  - A classification of proposed and non-proposed AI algorithms
+  - A description of proposed and non-proposed AI algorithms
   - A comprehensive list of input variables, grouped by category, with definitions and related studies
   - A list of evaluation metrics, organized by discipline, along with formulas and references
 

@@ -35,7 +35,7 @@ ai-software-testing-review-data/
 
 If you use this data in your work, please cite the original article as follows:
 
-> *Author(s). (2025). “Algoritmos de Inteligencia Artificial en las Pruebas de Software: Evolución desde una Revisión Sistemática.” Revista Q1, Vol(X), pp. XX–XX.*
+> *Author(s). (2025). “Artificial Intelligence in Software Testing: A Systematic Review of Algorithms and Their Evolution across Problems, Variables, and Metrics (2014–2024).” Revista Q1-Q2, Vol(X), pp. XX–XX.*
 
 ## 🔗 Related Publication
 

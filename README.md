@@ -1,45 +1,105 @@
 # ai-software-testing-review-data
 
-This repository contains the supplementary materials associated with a systematic literature review on the application of Artificial Intelligence (AI) techniques in Software Testing. The study includes a detailed analysis of algorithms, input variables, evaluation metrics, and experimental datasets reported across 66 peer-reviewed studies.
+This repository contains the supplementary materials associated with the systematic literature review on **Artificial Intelligence in Software Testing**.  
+It includes all the datasets, coding artifacts, and methodological checklists required for full transparency and reproducibility in accordance with **PRISMA 2020**.
 
 ## 📁 Repository Structure
 
 ai-software-testing-review-data/
-├── LICENSE_CC_BY_4.0.txt
-├── README.md
-├── data/
-│ └── dataset_summary_results.xlsx
-├── tables/
-│ └── supplementary_tables.docx
+┣ data/
+┃ ┣ coding_book_taxonomy.xlsx
+┃ ┗ raw_data_extraction.xlsx
+┣ screening/
+┃ ┗ filtering_articles_marked.xlsx
+┣ tables/
+┃ ┗ supplementary_tables.docx
+┣ checklist/
+┃ ┗ PRISMA_2020_Checklist_AEV.docx
+┣ LICENSE_CC_BY_4.0.txt
+┗ README.md
+
+## 📂 File Descriptions  
+
+### 🔹 `screening/filtering_articles_marked.xlsx`
+Records the **screening and selection process**, including:
+- (1) Title (2) Abstract & Keywords (3) Introduction / Conclusion (4) Full-text review  
+- Extra filters: (5d) Duplicated, (6r) Retracted, (NRP) Not responding, (0) Selected → 66 studies  
+
+---
+
+### 🔹 `data/raw_data_extraction.xlsx`
+Acts as the **raw data extraction sheet**, listing for each study:  
+- Problem code (e.g., SDP, TCM, ATE)  
+- Dataset name & source  
+- Instances / variables  
+- Algorithms used  
+- Evaluation metrics (Accuracy, Precision, Recall, F1-score, ROC-AUC, MCC, etc.)  
+
+Supports the quantitative synthesis in **Figures 7–9** and **Tables 6–7**.
+
+---
+
+### 🔹 `data/coding_book_taxonomy.xlsx`
+Operational **coding guide** defining:
+- Decision rules and classification hierarchy  
+- Definitions for variables and categories  
+- Mapping between AI algorithms and testing problems  
+
+---
+
+### 🔹 `tables/supplementary_tables.docx`
+Extended annexes from the manuscript:  
+- **Annex B:** Algorithms per study  
+- **Annex C:** Variables and input features  
+- **Annex D:** Evaluation metrics with formulas and definitions  
+
+---
+
+### 🔹 `checklist/PRISMA_2020_Checklist_AEV.docx`
+Complete PRISMA 2020 checklist used to verify reporting quality and reproducibility.
+
+---
+
+## 🧠 Methodological Framework  
+
+Aligned with:
+- 📘 **PRISMA 2020 Statement** for transparent reporting  
+- 🧩 **Kitchenham & Charters (2007)** for evidence-based SE reviews  
+- 🌐 **FAIR Data Principles** (Open Science)  
+
+Ensures:  
+✅ Transparent search and selection  
+✅ Replicable data extraction and coding  
+✅ Independent verification of results  
+
+---
+
+## 🔗 Access & Citation  
+
+**Repository:** [https://github.com/escalasoft/ai-software-testing-review-data](https://github.com/escalasoft/ai-software-testing-review-data)
+
+> Escalante-Viteri, A.; Mauricio, D.  
+> *Artificial Intelligence in Software Testing: A Systematic Review of a Decade of Evolution and Taxonomy.*  
+> **Algorithms (MDPI), 2025.**
+
+---
+
+## ⚖️ License  
+
+Distributed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.  
+You may share and adapt this material with proper attribution.  
+📜 [View License →](https://creativecommons.org/licenses/by/4.0/)
+
+---
+
+## 📬 Contact  
+
+**Corresponding Author:** Alex Escalante-Viteri  
+Universidad Nacional Mayor de San Marcos (UNMSM)  
+Faculty of Systems and Informatics Engineering  
+📧 [alex.escalante@unmsm.edu.pe](mailto:alex.escalante@unmsm.edu.pe)
 
 
-## 📄 File Descriptions
 
-- `data/dataset_summary_results.xlsx`:  
-  This spreadsheet summarizes the main characteristics of the datasets used in the selected studies, including:
-  - Dataset names and sizes  
-  - Number of instances and features  
-  - Algorithms applied  
-  - Evaluation results (e.g., Accuracy, F1-Score, Precision, Recall, AUC)
-
-- `tables/supplementary_tables.docx`:  
-  This document includes:
-  - A description of proposed and non-proposed AI algorithms
-  - A comprehensive list of input variables, grouped by category, with definitions and related studies
-  - A list of evaluation metrics, organized by discipline, along with formulas and references
-
-- `LICENSE_CC_BY_4.0.txt`:  
-  This repository is shared under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/), allowing use, distribution, and reproduction with proper citation.
-
-## 📚 Citation
-
-If you use this data in your work, please cite the original article as follows:
-
-> *Author(s). (2025). “Artificial Intelligence in Software Testing: A Systematic Review of Algorithms and Their Evolution across Problems, Variables, and Metrics (2014–2024).” Revista Q1-Q2, Vol(X), pp. XX–XX.*
-
-## 🔗 Related Publication
-
-The systematic review is part of an ongoing research project on the evolution of AI in Software Testing. For questions or academic collaboration, please contact:  
-📧 **[alex.escalante@unmsm.edu.pe]**
 
 

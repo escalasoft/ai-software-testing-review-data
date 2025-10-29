@@ -40,10 +40,10 @@ Supports the quantitative synthesis in **Figures 7–9** and **Tables 6–7**.
 ---
 
 ### 🔹 `data/coding_book_taxonomy.xlsx`
-Operational **coding guide** defining:
-- Decision rules and classification hierarchy  
-- Definitions for variables and categories  
-- Mapping between AI algorithms and testing problems  
+Operational **coding guide** Contains three sheets:  
+  1. *Algorithm_Taxonomy* (definitions and rules for algorithm categories)  
+  2. *Variable_Taxonomy* (definitions for input variable categories)  
+  3. *Metrics_Taxonomy* (definitions for evaluation metric categories: CP, AC, CE, AR, STS, CGD).
 
 ---
 

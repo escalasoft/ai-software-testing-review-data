@@ -11,8 +11,6 @@ ai-software-testing-review-data/
 ┃ ┗ raw_data_extraction.xlsx
 ┣ screening/
 ┃ ┗ filtering_articles_marked.xlsx
-┣ tables/
-┃ ┗ supplementary_tables.docx
 ┣ checklist/
 ┃ ┗ PRISMA_2020_Checklist_AEV.docx
 ┣ LICENSE_CC_BY_4.0.txt
@@ -44,14 +42,6 @@ Operational **coding guide** Contains three sheets:
   1. *Algorithm_Taxonomy* (definitions and rules for algorithm categories)  
   2. *Variable_Taxonomy* (definitions for input variable categories)  
   3. *Metrics_Taxonomy* (definitions for evaluation metric categories: CP, AC, CE, AR, STS, CGD).
-
----
-
-### 🔹 `tables/supplementary_tables.docx`
-Extended annexes from the manuscript:  
-- **Annex B:** Algorithms per study  
-- **Annex C:** Variables and input features  
-- **Annex D:** Evaluation metrics with formulas and definitions  
 
 ---
 

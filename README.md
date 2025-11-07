@@ -7,12 +7,9 @@ It includes all the datasets, coding artifacts, and methodological checklists re
 
 ai-software-testing-review-data/
 ┣ data/
-┃ ┣ coding_book_taxonomy.xlsx
 ┃ ┗ raw_data_extraction.xlsx
 ┣ screening/
 ┃ ┗ filtering_articles_marked.xlsx
-┣ checklist/
-┃ ┗ PRISMA_2020_Checklist_AEV.docx
 ┣ LICENSE_CC_BY_4.0.txt
 ┗ README.md
 
@@ -34,19 +31,6 @@ Acts as the **raw data extraction sheet**, listing for each study:
 - Evaluation metrics (Accuracy, Precision, Recall, F1-score, ROC-AUC, MCC, etc.)  
 
 Supports the quantitative synthesis in **Figures 7–9** and **Tables 6–7**.
-
----
-
-### 🔹 `data/coding_book_taxonomy.xlsx`
-Operational **coding guide** Contains three sheets:  
-  1. *Algorithm_Taxonomy* (definitions and rules for algorithm categories)  
-  2. *Variable_Taxonomy* (definitions for input variable categories)  
-  3. *Metrics_Taxonomy* (definitions for evaluation metric categories: CP, AC, CE, AR, STS, CGD).
-
----
-
-### 🔹 `checklist/PRISMA_2020_Checklist_AEV.docx`
-Complete PRISMA 2020 checklist used to verify reporting quality and reproducibility.
 
 ---
 
